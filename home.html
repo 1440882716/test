@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/swiper-3.4.2.min.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>首页</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      
+      <!-- 导航 -->
+      <div class="nav-bgc ">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-3 logo-box hidden-xs hidden-sm">
+              <img class="md-logo" src="../img/logo.png" alt="图片无法显示">
+              <img src="../img/logo-text.png" alt="">
+            </div>
+            <!-- 大屏幕导航 -->
+            <div class="col-xs-6 col-sm-6 col-md-9 hidden-xs hidden-md hidden-sm">
+              <ul class="font18 nav-item-box fff-font bold-font  flex-r">
+                <li><a href="#">
+                  <p>首页</p>
+                  <img  class="point" src="../img/Polygon.png" alt="">
+                  <!-- <span class="glyphicon glyphicon-triangle-top fff-font"></span> -->
+                </a></li>
+                <li>
+                  <a href="./product1.html">
+                    <p>智慧产品</p>
+                    <img  class="point divHidden" src="../img/Polygon.png" alt="">
+                  </a>
+                  <div class="dropdown-item row ">
+                    <div class="col-xs-12 col-md-6">
+                      <dl>
+                        <dt>这是标题111111</dt>
+                        <dd>这是每一个小的内容项</dd>
+                        <dd>这是每一个小的内容项</dd>
+                        <dd>这是每一个小的内容项</dd>
+                        <dd>这是每一个小的内容项</dd>
+                        <dd>这是每一个小的内容项</dd>
+                      </dl>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                      <dl>
+                        <dt>这是标题22222</dt>
+                        <dd>这是每一个小的内容项</dd>
+                        <dd>这是每一个小的内容项</dd>
+                        <dd>这是每一个小的内容项</dd>
+                        <dd>这是每一个小的内容项</dd>
+                        <dd>这是每一个小的内容项</dd>
+                      </dl>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="./success.html">
+                  <p>成功案例</p>
+                  <img  class="point divHidden" src="../img/Polygon.png" alt="">
+                </a></li>
+                <li><a href="./prospect.html">
+                  <p>前景动态</p>
+                  <img  class="point divHidden" src="../img/Polygon.png" alt="">
+                </a></li>
+                <li><a href="./service.html">
+                  <p>服务保障</p>
+                  <img  class="point divHidden" src="../img/Polygon.png" alt="">
+                </a></li>
+                <li><a href="./cooperation.html">
+                  <p>合作共赢</p>
+                  <img  class="point divHidden" src="../img/Polygon.png" alt="">
+                </a></li>
+                <!-- <li><a class="nav-item" href="./news.html">新闻中心</a></li> -->
+              </ul>
+            </div>
+            <!-- 小屏幕汉堡导航 -->
+              <div class="flex-r flex-b xs-list-head main-bgc nav-icon">
+                <img class="xs-logo" src="../img/logo.png" alt="">
+                <span class="glyphicon glyphicon-menu-hamburger hamburger-icon"></span>
+              </div>
+          </div>
+        </div>
+      </div>
+      <!-- 小屏幕展开的导航 -->
+         <div class="list-box divHidden">
+          <div class="flex-r flex-b xs-list-menu main-bgc">
+            <img class="xs-logo" src="../img/logo.png" alt="">
+            <span class="glyphicon glyphicon-remove hamburger-icon"></span>
+          </div>
+          <ul class="row font16 list-ul">
+            <li ><a href="#"><span>首页</span></a></li>
+            <li ><a href="./product1.html"><span>智慧产品</span></a></li>
+            <li ><a href="./success.html"><span>成功案例</span></a></li>
+            <li ><a href="./prospect.html"></a><span>前景动态</span></li>
+            <li ><a href="./service.html"></a><span>服务保障</span></li>
+            <li ><a href="./cooperation.html"></a><span>合作共赢</span></li>
+          </ul>
+        </div>
+        <!-- <div class="clear:both"></div> -->
+      <!-- 轮播 -->
+      <div class="swiper-container swiper-box ad-box">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="../img/swiper1.jpg" alt="...">
+          </div>
+          <div class="swiper-slide">
+            <img src="../img/swiper2.jpg" alt="...">
+          </div>
+          <div class="swiper-slide">
+            <img src="../img/swiper3.jpg" alt="...">
+          </div>
+          <div class="swiper-slide">
+            <img src="../img/swiper4.png" alt="...">
+          </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev hidden-xs"></div>
+      <div class="swiper-button-next hidden-xs"></div>
+      </div>
+      <!-- 案例 -->
+      <div class="container product flex-c flex-center">
+        <!-- 智慧产品 -->
+        <div class="example-title flex flex-center">
+          <img class="title-icon" src="../img/right-icon.png" alt="">
+          <div class="font48 product-title main-color">智慧产品</div>
+          <img class="title-icon" src="../img/left-icon.png" alt="">
+        </div>
+        <img class="line-box" style="width: 65%;" src="../img/title-line.png" alt="">
+        <div class="row product-box">
+          <div class="col-xs-12 col-md-4 product-item">
+            <a href="./product1.html">
+              <img class="product-img" src="../img/dbzj.png" alt="">
+            <div class="product-info">
+              <p class="font24 bold-font">智慧人大</p>
+            <div class="font16">一体化人大智慧平台利用大数据、人工智能技术为省市县（区）镇（街道）为人大提供一体化智能化服务和管理。大幅提高人大工作效率和规范化;大幅提高人民群众和代表及人大的密切联系;大幅提高人大代表的履职效率;大幅提高人大代表的积极性和主动性;为政府的重大决策提供技术和数据支持。</div>
+            </div>
+            </a> 
+            
+          </div>
+          <div class="col-xs-12 col-md-4 product-item product-md">
+            <a href="./product1.html">
+              <img  class="product-img" src="../img/zhsq.png" alt="">
+            <div class="product-info">
+              <p class="font24 bold-font">智慧社区</p>
+            <div class="font16">智慧社区管理系统借助社区网格化管理平台，将网络通信、物业服务、社区服务、增值服务等整合在一个高效的系统之中，让市民轻松享受安全、便捷、精彩、健康、幸福的智慧生活；强化政府公益服务，提升城市市民福利，增加市民幸福感；打造精确管理的和谐、平安、关怀、低碳社区。降低城市管理成本：智慧社区管理系统采用网格化管理理念，有效的整合各个部门、社会力量以及社区力量，大大降低了城市公共服务成本。</div>
+            </div>
+            </a>
+            
+          </div>
+          <div class="col-xs-12 col-md-4 product-item">
+            <a href="./product1.html">
+              <img  class="product-img" src="../img/xczx.png" alt="">
+            <div class="product-info">
+              <p class="font24 bold-font">乡村振兴</p>
+            <div class="font16">乡村振兴大数据服务平台，提供集“乡村振兴，产业振兴，生态振兴，人才振兴，智慧乡村，数字乡村，乡村信息化”等于一体的乡村振兴数字化服务整体解决方案。主要围绕决策服务、产业服务、经营服务、生活服务、治理服务等，设计了农户管理、人才管理、农业生产、农村电商、就业服务、帮扶管理等更全面、更多样化管理模式。</div>
+            </div>
+            </a>
+            
+          </div>
+        </div>
+        <!-- 成功案例 -->
+        <div class="example-title flex flex-center">
+          <img class="title-icon" src="../img/right-icon.png" alt="">
+          <div class="font48 product-title main-color">成功案例</div>
+          <img class="title-icon" src="../img/left-icon.png" alt="">
+        </div>
+        <img class="line-box" style="width: 65%;" src="../img/title-line.png" alt="">
+        
+      </div>
+      <div class="success-ex1 margin-top116">
+        <div class="shuang-liu  fff-font">
+          <div class="font36 success-title">双流区代表之家智慧平台</div>
+          <div class="to-left">
+            <p class="font18">2020年成功上线</p>
+          <span class="font18">同年6月刊于中国人大代表大会先进实施方案</span>
+          </div>
+          
+        </div>
+      </div>
+      <div class="success-ex2">
+        <div class="mian-yang fff-font">
+          <div class="font36 success-title">绵阳市永兴镇智慧社区</div>
+          <div class="to-left">
+            <p class="font18">2021年成功上线</p>
+          <span class="font18">同年6月刊于中国人大代表大会先进实施方案</span>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- 底部 -->
+    <div class="container-fluid main-bgc">
+      <div class="container footer-box">
+        <div class="row footer"> 
+          <div class="col-xs-12 col-md-6">
+            <div class="fff-font font18 company">成都科鸿达科技有限公司</div>
+            <div class="fff-font font18">
+              <img class="company-icon" src="../img/phone.png" alt="">
+              <span>电话：028-61590943  18581879716</span>
+            </div>
+            <div class="fff-font font18">
+              <img class="company-icon" src="../img/address.png" alt="">
+              <span>地址：成都市郫都区合信路龙湖时代天街17栋1127号</span>
+            </div>
+            
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <img class="company-flag" src="../img/flag.png" alt="">
+            <div class="fff-font font18">
+              <img class="company-icon" src="../img/email.png" alt="">
+              <span>邮箱：wljuestc@sina.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="font12 fff-font record-no">蜀ICP备18024840号-1</div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="../js/swiper-3.4.2.min.js"></script>
+    <!-- <script src="../js/remUnit.js"></script> -->
+    <script src="../js/global.js"></script>
+    <script>
+       var mySwiper = new Swiper ('.swiper-container', {
+    loop: true,
+    // autoplay:true,
+    pagination : '.swiper-pagination',
+    paginationClickable :true,
+    // 如果需要前进后退按钮
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    autoplay: 3000,
+    // autoplay: {
+    // delay: 5000,
+    // stopOnLastSlide: false,
+    // disableOnInteraction: true,
+    // },
+    onTransitionEnd: function(swiper){
+	  if(swiper.progress==1){
+		  swiper.activeIndex=swiper.slides.length-1
+	  }
+    }
+    
+    
+  })        
+
+    </script>
+  </body>
+</html>
